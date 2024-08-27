@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Porfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/b8ec27cca0.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    
+    <div class="container">
+        <nav>
+            <!-- <img src="images/logo.png" class ="logo"> -->
+            <i class="fa-solid fa-code"></i>
+            <ul id="sidemenu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#competitive-programming">Coding</a></li>
+                <li><a href="#portfolio">Porfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fas fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Software Engineer</p>
+            <h1>Hi, I'm <span>Krishna</span> <br>Rai from IIIT-Trichy</h1>
+            </p>
+        </div>
+    </div>
+    
+
+</div>
+<!-- -----------about------ -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/krishna1.png" alt="">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>Final-year Electronics and Communication Engineering student at IIIT Trichy with strong academics and hands-on experience.
+                     Proficient in C, C++, JavaScript, Java, ReactJS, Git, and Postman. I've completed projects using ReactJS, NodeJS, Next.js, Tailwind CSS, PostgreSQL, and more.
+                      Solved over 1300 problems across platforms and participated in 100+ coding contests, including ICPC Regionals 2023-24.
+                     Eager to apply my skills in tech projects and industry collaborations.</p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Programming</span><br>C++, Java, C, JavaScript</li>
+                        <li><span>Development</span><br>React, Next.js, Tailwind CSS, Node.js, React Native, Expo</li>
+                        <li><span>Database</span><br>Firebase, SQL, PostgreSQL</li>
+                        <li><span>Soft Skills</span><br>Creative, Team Player, Problem-Solver</li>
+                        <li><span>Languages</span><br>English, Hindi</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>2024</span><br>Android Developer Intern at JATT ROLLS (May - July)</li>
+                        <li><span>2024</span><br>Completed Forage JPMorgan Chase Job Simulation (August - September)</li>
+                        <li><span>2022 - Current</span><br>Coding Club Coordinator - IIIT-Trichy
+                            <ul>
+                                <li>Conducted 20+ coding contests</li>
+                                <li>Organized Atrang 2023 coding contest at College</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                
+                
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li>
+                            <span>2021 - 2025</span><br>
+                            <strong>IIIT-Trichy</strong><br>
+                            <ul>
+                                <li>Bachelor of Technology</li>
+                                <li>Major in ECE, Minor in CSE</li>
+                                <li>CGPA: 8.7</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <span>2018 - 2020</span><br>
+                            <strong>St. Joseph’s School, Gorakhpur</strong> (12th)<br>
+                            <ul>
+                                <li>Percentage: 90%</li>
+                                <li>Major in Mathematics and Computer Science</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                
+                
+            </div>
+        </div>
+    </div>
+</div>
+<!-- -----------------services------- -->
+<div id="competitive-programming">
+    <div class="container">
+        <h1 class="sub-title">Competitive Programming</h1>
+        <div class="coding-profiles">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>LeetCode</h2>
+                <a href="https://leetcode.com/u/masquerade08/" target="_blank">Visit Profile</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>CodeChef</h2>
+                <a href="https://www.codechef.com/users/masquerade08/" target="_blank">Visit Profile</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Codeforces</h2>
+                <a href="https://codeforces.com/profile/masquerade08" target="_blank">Visit Profile</a>
+            </div>
+        </div>
+        <div class="achievement-list">
+            <h2>Achievements</h2>
+            <p>• Achieved 55th Rank in Preliminary ACM-ICPC 2023.</p>
+            <p>• Participated in ICPC Regionals 2023-24 in Chennai and Amritapuri.</p>
+            <p>• Solved 850+ Problems on Leetcode (Knight-1924) and 300+ Problems on Codechef.</p>
+            <p>• Participated in 100+ live Coding Contests.</p>
+            <p>• Achieved 985 Global Rank in Leetcode Biweekly contest.</p>
+            <p>• Achieved 340 Global Rank in Codechef February cook-off 2023.</p>
+        </div>
+    </div>
+</div>
+
+<!-- -------------------porfolio---------------/ -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="https://img.freepik.com/free-vector/website-development-banner_33099-1687.jpg?size=626&ext=jpg&ga=GA1.1.2008272138.1724716800&semt=ais_hybrid" alt="Mock Interview Application">
+                <div class="work-info">
+                    <h3>Mock Interview Application</h3>
+                    <p><strong>Description:</strong> Built with Next.js and React for a dynamic interface and interactive mock interviews.</p>
+                    <p><strong>Technologies:</strong> Next.js, React, Clerk, PostgreSQL, Drizzle ORM, Gemini AI API, Tailwind CSS</p>
+                    <div class="links">
+                        <a href="https://mock-interview-ai-vert.vercel.app/dashboard" target="_blank" class="btn">Try</a>
+                        <a href="https://youtu.be/HxIF2h5MPw4" target="_blank" class="btn">Demo</a>
+                        <a href="https://github.com/masquerade08/Mock-Interview-AI" target="_blank" class="btn github">Repo</a>
+                    </div>
+                </div>
+            </div>
+            <div class="work">
+                <img src="https://img.freepik.com/free-vector/app-development-banner_33099-1720.jpg" alt="Business Directory Mobile App">
+                <div class="work-info">
+                    <h3>Business Directory App</h3>
+                    <p><strong>Description:</strong> Developed a mobile application using React Native and Expo to manage business listings with a strong emphasis
+                        on intuitive UI/UX design. </p>
+                    <p><strong>Technologies:</strong> React Native, Expo, Firebase Firestore, Clerk</p>
+                    <div class="links">
+                        <a href="https://youtu.be/kShDND5wyx4" target="_blank" class="btn">Demo</a>
+                        <a href="https://expo.dev/artifacts/eas/nydSkAmFswmib93r6U3zos.apk" target="_blank" class="btn">APK</a>
+                        <a href="https://github.com/masquerade08/Business-Directory" target="_blank" class="btn github">Repo</a>
+                    </div>
+                </div>
+            </div>
+            <div class="work">
+                <img src="https://img.freepik.com/free-vector/website-development-banner_33099-1687.jpg?size=626&ext=jpg&ga=GA1.1.2008272138.1724716800&semt=ais_hybrid" alt="Shortify">
+                <div class="work-info">
+                    <h3>Shortify</h3>
+                    <p><strong>Description:</strong> Developed using React.js to visualize the shortest path between two points in a grid with obstacles.
+                        Implemented various graph algorithms for real-time pathfinding.</p>
+                    <p><strong>Technologies:</strong>  React.js, Graph Algorithms, Netlify</p>
+                    <div class="links">
+                        <a href="https://grand-frangipane-d05f0d.netlify.app/" target="_blank" class="btn">Try</a>
+                        <a href="https://github.com/masquerade08/Shortify" target="_blank" class="btn github">Repo</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a href="https://github.com/masquerade08?tab=repositories" target="_blank" class="btn">See more</a>
+    </div>
+</div>
+
+<!-- ---------------------Contact------------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-envelope"></i> <a href="mailto:raikrishna882000@gmail.com" target="_blank">raikrishna882000@gmail.com</a></p>
+                <p><i class="fa-solid fa-phone"></i> <a href="tel:+917905841571" target="_blank">+917905841571</a></p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/profile.php?id=100012132700820" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="https://www.instagram.com/liked__by_/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://twitter.com/krishna82706481" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://www.linkedin.com/in/krishnaswarooprai/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+                <a href="https://drive.google.com/file/d/1TkbybnzRk9cva0Dqx7iLcSpWKKD4qnUf/view?usp=sharing" class="btn btn2" target="_blank">Resume</a>
+            </div>
+            <!-- Removed the contact-right section and its form -->
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright @ Krishna .<i class="fa-sharp fa-solid fa-heart"></i></p>
+    </div>
+</div>
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname) {
+        for (var tablink of tablinks) {
+            tablink.classList.remove("active-link");
+        }
+        for (var tabcontent of tabcontents) {
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+<script>
+    var sidemeu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemeu.style.right ="0";
+    }
+    function closemenu(){
+        sidemeu.style.right ="-200px";
+    }
+</script>
+</body>
+</html>
