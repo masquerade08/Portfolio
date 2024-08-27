@@ -184,10 +184,11 @@ nav ul li a:hover::after{
     background: #262626;
     padding: 40px;
     font-size: 14px;
-    font-weight: 300;
+    font-weight: 400;
     border-radius: 10px;
     transition: background 0.5s, transform 0.5s;
 }
+
 
 .achievement-list h2 {
     font-size: 24px;
@@ -204,7 +205,14 @@ nav ul li a:hover::after{
 .achievement-list:hover {
     background: #ff004f;
     transform: translateY(-10px);
+    font-weight: 800;
+    color:black;
+    & h2{
+        font-weight: 900;
+    }
+
 }
+
 
 /* --------------portfolio-------- */
 #portfolio {
